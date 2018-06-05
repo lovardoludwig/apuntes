@@ -1,0 +1,31 @@
+1.a.//ItemStock
+private Computadora computadora;
+private int cantidad;
+//Computadora
+private String nombre;
+
+b.public List<ItemStock> getItems(){
+private List<ItemStock>lista=new ArrayList<ItemStock>();
+for(ItemStock item : this.items){
+lista=item;
+}
+return lista;
+}
+
+c.List<ItemStock> ListaStock = new ArrayList<ItemStock>();
+for(ItemStock.items:this.items){
+if(items<cantidadMáxima){
+ListaStock.add(items);
+}
+}
+return ListaStock;
+
+3.3
+
+4.0,1,1,1,1,1,0,0
+
+5.select c.nombre,c.precio,is.cantidad
+from Computadora as c
+inner join ItemStock as is
+on is.id_computadora=c.id_computadora
+where c.precio>50000
